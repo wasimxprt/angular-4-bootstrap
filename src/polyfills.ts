@@ -31,6 +31,7 @@ import 'core-js/es6/date';
 import 'core-js/es6/array';
 import 'core-js/es6/regexp';
 import 'core-js/es6/map';
+import 'core-js/es6/weak-map';
 import 'core-js/es6/set';
 import 'core-js/es6/reflect';
 
@@ -66,4 +67,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
  * Date, currency, decimal and percent pipes.
  * Needed for: All but Chrome, Firefox, Edge, IE11 and Safari 10
  */
-// import 'intl';  // Run `npm install --save intl`.
+ import 'intl';  // Run `npm install --save intl`.
+ import 'intl/locale-data/jsonp/en';
