@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { ChartsModule } from 'ng2-charts/ng2-charts';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { LoginComponent } from './login.component';
 import { LoginRoutingModule } from './login-routing.module';
@@ -9,7 +10,9 @@ import { LoginRoutingModule } from './login-routing.module';
   imports: [
     LoginRoutingModule,
     ChartsModule,
-    BsDropdownModule
+    BsDropdownModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   declarations: [ LoginComponent ]
 })

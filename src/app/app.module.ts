@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 
@@ -69,6 +70,8 @@ import { ChartsModule } from 'ng2-charts/ng2-charts';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     ChartsModule
